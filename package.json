@@ -1,0 +1,13 @@
+{
+  "name": "@artcoded/next-pulumi",
+  "version": "1.0.0",
+  "description": "Pulumi classes to easily deploy NextJs to Google Cloud Platform",
+  "author": "Artcoded <mail.artcoded@gmail.com>",
+  "homepage": "https://artcoded.net",
+  "license": "MIT",
+  "dependencies": {
+    "@pulumi/gcp": "^5.9.0",
+    "@pulumi/pulumi": "^3.3.1",
+    "@pulumi/random": "^4.2.0"
+  }
+}
