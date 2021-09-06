@@ -23,7 +23,6 @@ export class NextBuildDockerTrigger {
     const endpointBuildArgCommand = vendureApiEndpoint
       ? ["--build-arg", `${nextApiEndpointArgName}=${vendureApiEndpoint}`]
       : [];
-    const projectDirNameArgName = "PROJECT_DIR_NAME";
 
     const buildArgs: pulumi.Input<pulumi.Input<string>[]> | undefined = [
       ...endpointBuildArgCommand,
